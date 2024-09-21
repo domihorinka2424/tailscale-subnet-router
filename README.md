@@ -28,12 +28,14 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/your-username/tailscale-subnet-router.git
 cd tailscale-subnet-router
+```
 
 ### 2. Configure the Tailscale API key
 Create a 'tailscale.tfvars' file and add your Tailscale API key:
 
 ```bash
 echo 'tailscale_api_key = "your-api-key-here"' > terraform.tfvars
+```
 
 ### 3. Initialize and Apply Terraform
 Run the following commands to initialize and apply the Terraform configuration:
@@ -41,6 +43,7 @@ Run the following commands to initialize and apply the Terraform configuration:
 ```bash
 terraform init
 terraform apply
+```
 
 ### 4. Join the Raspberry Pi to the Tailnet
 Install Tailscale on your Raspberry pi if it's not installed already:
