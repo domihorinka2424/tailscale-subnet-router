@@ -20,6 +20,9 @@ This project demonstrates how to deploy a Tailscale subnet router on a Raspberry
 - **Git installed**: Required for version control. 
 - **A GitHub repository and account**: You will need a GitHub account to store your project and push your code.
 
+## My Tailnet Information
+- **Tailnet DNS**: tail9c0397.ts.net
+
 ## Setup Instructions
 
 ### 1. Clone the Repository
