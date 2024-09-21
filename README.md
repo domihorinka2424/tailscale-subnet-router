@@ -50,16 +50,19 @@ Install Tailscale on your Raspberry pi if it's not installed already:
 
 ```bash
 curl -fsSL https://tailscale.com/install.sh | sh
+```
 
 Use the Generated authentication key to join the Raspberry Pi to your tailnet:
 
 ```bash
 sudo tailscale up --authkey tskey-xxxxxx --advertise-routes=10.0.0.0/24
+```
 
 Verify that the Raspberry Pi is connected to Tailscale:
 
 ```bash
 tailscale status
+```
 
 ### 5. Verfiy Subnet Advertisement is working
 - In the Tailscale Admin Console: Check that the Raspberry Pi is advertising the 10.0.0.0/24 subnet under the listed machine.
@@ -68,6 +71,7 @@ tailscale status
 
 ```bash
 ping 10.0.0.x
+```
 
 ## Usage 
 
@@ -77,6 +81,7 @@ ping 10.0.0.x
 
 ```bash
 ssh pi@<Tailscale IP>
+```
 
 
 ## License
